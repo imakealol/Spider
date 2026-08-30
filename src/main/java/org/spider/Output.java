@@ -1,5 +1,5 @@
 /*
-  Copyright 2020 - 2025 Spider-Admin@Z+d9Knmjd3hQeeZU6BOWPpAAxxs
+  Copyright 2020 - 2026 Spider-Admin@Z+d9Knmjd3hQeeZU6BOWPpAAxxs
 
   Licensed under the Apache License, Version 2.0 (the "License");
   you may not use this file except in compliance with the License.
@@ -109,7 +109,7 @@ public class Output implements AutoCloseable {
 		this.storage = new Storage(connection);
 		this.settings = Settings.getInstance();
 
-		templateConfig = new Configuration(Configuration.VERSION_2_3_34);
+		templateConfig = new Configuration(Configuration.VERSION_2_3_35);
 		templateConfig.setDefaultEncoding(settings.getCharset().name());
 		templateConfig.setLocale(Locale.US);
 		templateConfig.setDateTimeFormat("yyyy-MM-dd HH:mm:ss");
